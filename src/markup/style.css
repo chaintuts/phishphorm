@@ -1,0 +1,98 @@
+/* This file contains simple styling for the application
+*
+* Author: Josh McIntyre
+*/
+
+body
+{
+	background-color:#222222;
+	color:#FFFFFF;
+	
+	font-family:"Arial", Helvetica, sans-serif;
+	font-size:100%;
+}
+
+button, input[type=submit]
+{
+	background-color:#555555;
+	color:#FFFFFF;
+	border:none;
+	
+	font-family:"Arial", Helvetica, sans-serif;
+	font-size:100%;
+}
+
+button:hover
+{
+	background-color:#999999;
+	color:#FFFFFF;
+	border:none;
+	
+	font-family:"Arial", Helvetica, sans-serif;
+	font-size:100%;
+}
+
+select
+{
+	background-color:#222222;
+	color:#FFFFFF;
+	
+	font-family:"Arial", Helvetica, sans-serif;
+	font-size:100%;
+
+	margin:5px;
+	padding:2px;
+}
+
+a:link, a:visited
+{
+	background-color:#555555;
+	color:#FFFFFF;
+	
+	font-family:"Arial", Helvetica, sans-serif;
+	font-size:100%;
+	
+	text-decoration:none;
+}
+
+a:hover
+{
+	background-color:#999999;
+	color:#FFFFFF;
+	
+	font-family:"Arial", Helvetica, sans-serif;
+	font-size:100%;
+	
+	text-decoration:none;
+}
+
+table
+{
+	border-style:solid;
+	border-width:1px;
+	border-color:#FFFFFF;
+	border-collapse:collapse;
+
+	padding:10px;
+	margin:3px;
+}
+
+th
+{
+	border-style:solid;
+	border-width:1px;
+	border-color:#FFFFFF;
+
+	padding:3px;
+	margin:3px;
+}
+
+td
+{
+	border-style:solid;
+	border-width:1px;
+	border-color:#FFFFFF;
+
+	padding:3px;
+	margin:3px;
+}

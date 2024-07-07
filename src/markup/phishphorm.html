@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+<!-- This file contains markup for the PhishPhorm webpage
+-
+- Author: Josh McIntyre
+-->
+<html>
+
+<!-- Mark up meta information
+-->
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Seed Phrase Phishing Demo</title>
+	
+	<link rel="stylesheet" type="text/css" href="style.css">
+	
+	<script src="phishphormlib.js" type="text/javascript"></script>
+	<script src="phishphorm.js" type="text/javascript"></script>
+	
+</head>
+
+<!--Mark up body -->
+<body>
+		
+		<h3>Seed Phrase Phishing & Validation Demo</h3>
+
+		<form id="inputs" action="phishphorm.php" method="post">
+
+			<label for="seedphrase">You should totally type your seed here</label><br>
+			<textarea name="seedphrase" id="seedphrase" rows=10 cols=50" oninput="fetchAndValidateSeedPhrase()"></textarea><br>
+			
+			<label id="validated"></label><br>
+			<input type="submit" value="Update your wallet"></input><br>
+
+		</form>
+		
+</body>
+
+</html>
